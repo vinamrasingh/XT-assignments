@@ -1,0 +1,120 @@
+html,body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: #f1f1f1;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.leftSection{
+    background-color: #ffffff;
+    flex: 50%;
+    margin:20px;
+    flex-direction: column;
+    border: 3px solid #Ececec;
+
+}
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    flex: 50%;
+    margin-right: 3%;
+}
+
+.textContainer{
+    margin: 10%;
+}
+
+label{
+    display: block;
+    text-align: left;
+    padding-left: 0%;
+    color:  rgb(109, 108, 108);
+}
+
+input,label,button{
+    display: block;
+    box-sizing: border-box;
+    margin:3% auto;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.inputClass {   
+    border-color: #e6e6e6fb;
+    border: #e6e6e6;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 3em;
+    font-weight: bold;
+    width:100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-shadow: 0 1px 1px #e6e6e6cb inset, 0 0 8px #e6e6e6cb;
+    outline: 0 none;
+    text-align: right;
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3076CE;
+    color: #ffffff;
+    padding-right: 3%;
+    width:100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 3em;
+    font-weight: bold;
+    border-top: 2px solid #d9d9d9;
+    padding: 0;
+    height:100%;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%; 
+}
+
+h3{
+    flex: 100%;
+    line-height: 3em;
+}
+
+h3:last-child{
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+article{
+    flex:50%;
+    text-align: left;
+    line-height: 3em;
+    font-weight: bold;
+    padding-left: 2%;
+}

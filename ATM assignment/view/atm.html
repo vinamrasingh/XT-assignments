@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="atm.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="leftSection">
+            <form>
+                <h1>Welcome to ATM</h1>
+                <div class="textContainer">
+                    <label for="moneyInput">Enter the Amount</label>
+                    <input class="inputClass" name="moneyInput" id="moneyInput" type="number" step="1" min="0" pattern="[0-9]" required>
+                    <button class="getMoney" onclick="getMoney()" type="button">Get Money</button>
+                </div>
+            </form>
+        </section>
+        <section class="rightSection">
+            <h3>You will get following amount</h3>
+            <section class="rows">
+                <article id="currency1">0 notes of Rs 1</article>
+                <article id="currency2">0 notes of Rs 2</article>
+            </section>
+            <section class="rows">
+                <article id="currency5">0 notes of Rs 5</article>
+                <article id="currency10">0 notes of Rs 10</article>
+            </section>
+            <section class="rows">
+                <article id="currency20">0 notes of Rs 20</article>
+                <article id="currency50">0 notes of Rs 50</article>
+            </section>
+            <section class="rows">
+                <article id="currency100">0 notes of Rs 100</article>
+                <article id="currency200">0 notes of Rs 200</article>
+            </section>
+            <section class="rows">
+                <article id="currency500">0 notes of Rs 500</article>
+                <article id="currency2000">0 notes of Rs 2000</article>
+            </section>
+            <h3 id="totalNotes">Total notes dispensed : 0</h3>
+        </section>
+    </div>
+    <script src="atm.js"></script>
+</body>
+</html>
