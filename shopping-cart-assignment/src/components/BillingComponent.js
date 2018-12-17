@@ -21,7 +21,9 @@ export default class BillingComponent{
                     
                     <section id="payment">
                         <section id="promotion">
-                            <label>ENTER PROMOTION CODE OR GIFT CARD</label>
+                            <div class="labelContainer">
+                                <label>ENTER PROMOTION CODE OR GIFT CARD</label>
+                            </div>
                             <input type="textbox">
                             <button>Apply</button>
                         </section>

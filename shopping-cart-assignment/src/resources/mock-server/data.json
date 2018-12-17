@@ -29,36 +29,6 @@
       "quantity": "1",
       "price": "550",
       "imgUrl": "src/images/tshirt2.jpg"
-    },
-    {
-      "id": 45,
-      "title": "Nike",
-      "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
-      "color": "Blue",
-      "imgUrl": "src/images/suggestion1.jpg",
-      "price": "550",
-      "quantity": "1",
-      "size": "Medium"
-    },
-    {
-      "id": 79,
-      "title": "Nike",
-      "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
-      "color": "Blue",
-      "imgUrl": "src/images/suggestion1.jpg",
-      "price": "550",
-      "quantity": "1",
-      "size": "Medium"
-    },
-    {
-      "id": 9,
-      "title": "Nike",
-      "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
-      "color": "Blue",
-      "imgUrl": "src/images/suggestion1.jpg",
-      "price": "550",
-      "quantity": "1",
-      "size": "Large"
     }
   ],
   "suggestionCarousel": [
@@ -68,14 +38,14 @@
       "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
       "color": "Blue",
       "imgUrl": "src/images/suggestion1.jpg",
-      "price": "550",
+      "price": "250",
       "quantity": "2",
       "size": "Medium"
     },
     {
       "id": "item2",
       "imgUrl": "src/images/suggestion2.jpg",
-      "price": "550",
+      "price": "300",
       "title": "Nike",
       "color": "Black",
       "quantity": "2",
@@ -85,7 +55,7 @@
     {
       "id": "item3",
       "imgUrl": "src/images/suggestion3.jpg",
-      "price": "550",
+      "price": "350",
       "title": "Nike",
       "color": "Black",
       "quantity": "2",
