@@ -15,8 +15,8 @@
       "title": "ether",
       "style": "e+ Men Teal Solid Round Neck T-shirt",
       "color": "Blue",
-      "size": "Medium",
-      "quantity": "1",
+      "size": "Large",
+      "quantity": "2",
       "price": "419",
       "imgUrl": "src/images/tshirt3.jpg"
     },
@@ -31,14 +31,34 @@
       "imgUrl": "src/images/tshirt2.jpg"
     },
     {
-      "id": 90,
+      "id": 45,
       "title": "Nike",
       "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
       "color": "Blue",
       "imgUrl": "src/images/suggestion1.jpg",
       "price": "550",
-      "quantity": "4",
-      "size": "Small"
+      "quantity": "1",
+      "size": "Medium"
+    },
+    {
+      "id": 79,
+      "title": "Nike",
+      "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
+      "color": "Blue",
+      "imgUrl": "src/images/suggestion1.jpg",
+      "price": "550",
+      "quantity": "1",
+      "size": "Medium"
+    },
+    {
+      "id": 9,
+      "title": "Nike",
+      "style": "Men Purple ELEMENT DRI-FIT Technology Running Hooded Standard Fit T-shirt",
+      "color": "Blue",
+      "imgUrl": "src/images/suggestion1.jpg",
+      "price": "550",
+      "quantity": "1",
+      "size": "Large"
     }
   ],
   "suggestionCarousel": [
